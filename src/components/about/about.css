@@ -1,0 +1,27 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5rem 0rem;
+}
+
+.about-left {
+  width: 40%;
+}
+
+.about-right {
+  width: 50%;
+}
+
+.about-right-section-header {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.about-right-heading {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+}
