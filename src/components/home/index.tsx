@@ -27,8 +27,7 @@ const Home = (props: Props) => {
           repeat={Infinity}
         />
         <div className="home-left-desc">
-		A passionate enthusiast at the intersection of technology, design and innovation. With a strong foundation in frontend development and a burning curiosity for machine learning, I&apos;m your go-to creative mind for crafting captivating web experiences and exploring the cutting-edge world of artificial intelligence. 
-		{/* Welcome to the digital playground where code meets creativity and where the future is built, one line at a time. */}
+		A passionate enthusiast at the intersection of technology, design and innovation. With a strong foundation in frontend development and a burning curiosity for machine learning, I&apos;m your go-to creative mind for crafting captivating web experiences and exploring the cutting-edge world of artificial intelligence.
         </div>
         <div className="home-left-btns">
           <button className="hire-btn">Hire Me</button>

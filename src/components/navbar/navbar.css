@@ -8,17 +8,17 @@
 .nav-left {
   font-size: 30px;
   font-weight: 600;
-  font-family: "__Inter_e66fe9";
+  /* font-family: "__Inter_e66fe9"; */
 }
 
 .nav-right {
   display: flex;
   align-items: center;
-  column-gap: 50px;
+  column-gap: 45px;
 }
 
 .nav-right .nav-right-item {
-  font-size: 20px;
+  font-size: 18px;
   transition: 0.3s;
   cursor: pointer;
 }

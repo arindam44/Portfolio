@@ -7,6 +7,13 @@
 
 .about-left {
   width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-left img {
+  border-radius: 50px;
 }
 
 .about-right {
@@ -14,14 +21,32 @@
 }
 
 .about-right-section-header {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
   color: var(--primary);
 }
 
 .about-right-heading {
-  font-size: 40px;
+  font-size: 34px;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+.about-right-desc {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.about-right-stack {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+  width: 100%;
+}
+
+.about-right-stack img {
+  border-radius: 10px;
 }
