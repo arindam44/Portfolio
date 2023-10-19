@@ -1,0 +1,34 @@
+[
+	{
+		"id": "project-01",
+		"name": "Funnel/Website Builder for DashClicks",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat accusantium sint, explicabo quidem quod assumenda! Excepturi quia distinctio commodi? Porro dolor earum laudantium architecto dolores maiores cupiditate, quisquam amet quam obcaecati officiis ipsum quos reprehenderit minus distinctio quibusdam enim nostrum veritatis quia harum. Unde, aspernatur sint veritatis quia odit quisquam dolore provident labore quod exercitationem rerum! Eius, ullam explicabo voluptatibus minima fugiat quo rerum accusantium, hic error fuga voluptatum tempore consequuntur quia repellat pariatur maxime ipsa ab nulla reiciendis. Laudantium, et aliquam obcaecati esse eaque, sapiente id deserunt quaerat dolorum adipisci ab ipsam. Autem quae eos deserunt quod iste eveniet.",
+		"image": "/funnel-builder.jpg",
+		"code": null,
+		"demo": "https://www.youtube.com/watch?v=ckAm_f78Byc&ab_channel=DashClicks"
+	},
+	{
+		"id": "project-02",
+		"name": "WeeConnect (Social Media App)",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat accusantium sint, explicabo quidem quod assumenda! Excepturi quia distinctio commodi? Porro dolor earum laudantium architecto dolores maiores cupiditate, quisquam amet quam obcaecati officiis ipsum quos reprehenderit minus distinctio quibusdam enim nostrum veritatis quia harum. Unde, aspernatur sint veritatis quia odit quisquam dolore provident labore quod exercitationem rerum! Eius, ullam explicabo voluptatibus minima fugiat quo rerum accusantium, hic error fuga voluptatum tempore consequuntur quia repellat pariatur maxime ipsa ab nulla reiciendis. Laudantium, et aliquam obcaecati esse eaque, sapiente id deserunt quaerat dolorum adipisci ab ipsam. Autem quae eos deserunt quod iste eveniet.",
+		"image": "/weeconnect.png",
+		"code": "https://github.com/arindam44/WeConnect-FrontEnd",
+		"demo": "https://weconnnect.netlify.app"
+	},
+	{
+		"id": "project-03",
+		"name": "WeWatch (Video Conferencing App)",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat accusantium sint, explicabo quidem quod assumenda! Excepturi quia distinctio commodi? Porro dolor earum laudantium architecto dolores maiores cupiditate, quisquam amet quam obcaecati officiis ipsum quos reprehenderit minus distinctio quibusdam enim nostrum veritatis quia harum. Unde, aspernatur sint veritatis quia odit quisquam dolore provident labore quod exercitationem rerum! Eius, ullam explicabo voluptatibus minima fugiat quo rerum accusantium, hic error fuga voluptatum tempore consequuntur quia repellat pariatur maxime ipsa ab nulla reiciendis. Laudantium, et aliquam obcaecati esse eaque, sapiente id deserunt quaerat dolorum adipisci ab ipsam. Autem quae eos deserunt quod iste eveniet.",
+		"image": "/funnel-builder.jpg",
+		"code": "https://github.com/arindam44/weewatch",
+		"demo": "https://wewatch.netlify.app"
+	},
+	{
+		"id": "project-04",
+		"name": "Voice Controlled News Reader",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat accusantium sint, explicabo quidem quod assumenda! Excepturi quia distinctio commodi? Porro dolor earum laudantium architecto dolores maiores cupiditate, quisquam amet quam obcaecati officiis ipsum quos reprehenderit minus distinctio quibusdam enim nostrum veritatis quia harum. Unde, aspernatur sint veritatis quia odit quisquam dolore provident labore quod exercitationem rerum! Eius, ullam explicabo voluptatibus minima fugiat quo rerum accusantium, hic error fuga voluptatum tempore consequuntur quia repellat pariatur maxime ipsa ab nulla reiciendis. Laudantium, et aliquam obcaecati esse eaque, sapiente id deserunt quaerat dolorum adipisci ab ipsam. Autem quae eos deserunt quod iste eveniet.",
+		"image": "/voice-controlled-news-reader.png",
+		"code": null,
+		"demo": "https://voice-controlled-news-reader.netlify.app/"
+	}
+]

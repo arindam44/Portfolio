@@ -3,6 +3,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import "./home.css";
 import Image from "next/image";
+import { downloadFile, handleScrollToElement } from "@/utils";
 
 type Props = {};
 
@@ -17,28 +18,111 @@ const Home = (props: Props) => {
             1000,
             "ML Enthusiast",
             1000,
-			"Tech Geek",
+            "Tech Geek",
             1000,
-			"MotorHead",
-			1000
+            "MotorHead",
+            1000,
           ]}
           wrapper="span"
           speed={30}
           repeat={Infinity}
         />
         <div className="home-left-desc">
-		A passionate enthusiast at the intersection of technology, design and innovation. With a strong foundation in frontend development and a burning curiosity for machine learning, I&apos;m your go-to creative mind for crafting captivating web experiences and exploring the cutting-edge world of artificial intelligence.
+          A passionate enthusiast at the intersection of technology, design and
+          innovation. With a strong foundation in frontend development and a
+          burning curiosity for machine learning, I&apos;m your go-to creative
+          mind for crafting captivating web experiences and exploring the
+          cutting-edge world of artificial intelligence.
         </div>
         <div className="home-left-btns">
-          <button className="hire-btn">Hire Me</button>
-          <button className="chat-btn">Let&apos;s talk</button>
+          <button
+            className="fill-btn"
+            onClick={() =>
+              downloadFile(
+                "https://drive.google.com/file/d/1Bg3boGGGuZ5BNFk2dLqMPqxh02eivhpo/view?usp=share_link",
+                "application/pdf",
+                "Arindam_Roy_Resume.pdf"
+              )
+            }
+          >
+            Hire Me
+          </button>
+          <button
+            className="outlined-btn"
+            onClick={() => handleScrollToElement("contacts-container")}
+          >
+            Let&apos;s talk
+          </button>
         </div>
-		<div className="home-left-btns" style={{paddingLeft: '10px', columnGap: '50px'}}>
-          <a href="https://linkedin.com/in/arindam19/" target="_blank" rel="noopener noreferer"><Image src="/linkedinIcon.svg" alt="linkedin" className="home-left-social-media-btn" width={50} height={50}  /></a>
-		  <a href="https://github.com/arindam44" target="_blank" rel="noopener noreferer"><Image src="/githubIcon.png" alt="github" className="home-left-social-media-btn" width={50} height={50} /></a>
-		  <a href="https://facebook.com/arindam.roy.44/" target="_blank" rel="noopener noreferer"><Image src="/metaIcon.svg" alt="meta" className="home-left-social-media-btn" width={50} height={50} /></a>
-		  <a href="https://instagram.com/arindam_.roy" target="_blank" rel="noopener noreferer"><Image src="/instagramIcon.svg" alt="instagram" className="home-left-social-media-btn" width={50} height={50} /></a>
-		  <a href="https://twitter.com/arindam_roy_19" target="_blank" rel="noopener noreferer"><Image src="/xIcon.svg" alt="twitter" className="home-left-social-media-btn" width={50} height={50} /></a>
+        <div
+          className="home-left-btns"
+          style={{ paddingLeft: "10px", columnGap: "50px" }}
+        >
+          <a
+            href="https://linkedin.com/in/arindam19/"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            <Image
+              src="/linkedinIcon.svg"
+              alt="linkedin"
+              className="home-left-social-media-btn"
+              width={50}
+              height={50}
+            />
+          </a>
+          <a
+            href="https://github.com/arindam44"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            <Image
+              src="/githubIcon.png"
+              alt="github"
+              className="home-left-social-media-btn"
+              width={50}
+              height={50}
+            />
+          </a>
+          <a
+            href="https://facebook.com/arindam.roy.44/"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            <Image
+              src="/metaIcon.svg"
+              alt="meta"
+              className="home-left-social-media-btn"
+              width={50}
+              height={50}
+            />
+          </a>
+          <a
+            href="https://instagram.com/arindam_.roy"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            <Image
+              src="/instagramIcon.svg"
+              alt="instagram"
+              className="home-left-social-media-btn"
+              width={50}
+              height={50}
+            />
+          </a>
+          <a
+            href="https://twitter.com/arindam_roy_19"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            <Image
+              src="/xIcon.svg"
+              alt="twitter"
+              className="home-left-social-media-btn"
+              width={50}
+              height={50}
+            />
+          </a>
         </div>
       </div>
       <video className="home-right-img" src="/logo.mp4" muted autoPlay loop />

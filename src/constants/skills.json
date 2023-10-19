@@ -1,0 +1,50 @@
+[
+	{
+		"name": "HTML",
+		"src": "/htmlIcon.svg" 
+	},
+	{
+		"name": "CSS",
+		"src": "/cssIcon.svg" 
+	},
+	{
+		"name": "JavaScript",
+		"src": "/jsIcon.svg" 
+	},
+	{
+		"name": "TypeScript",
+		"src": "/tsIcon.svg" 
+	},
+	{
+		"name": "ReactJS",
+		"src": "/reactIcon.svg" 
+	},
+	{
+		"name": "NextJS",
+		"src": "/nextjsIcon.svg" 
+	},
+	{
+		"name": "Redux",
+		"src": "/reduxIcon.svg" 
+	},
+	{
+		"name": "Tailwind CSS",
+		"src": "/tailwindcssIcon.svg" 
+	},
+	{
+		"name": "Material UI",
+		"src": "/materialuiIcon.svg" 
+	},
+	{
+		"name": "SASS",
+		"src": "/sassIcon.svg" 
+	},
+	{
+		"name": "NodeJS",
+		"src": "/nodejsIcon.svg" 
+	},
+	{
+		"name": "MongoDB",
+		"src": "/mongodbIcon.svg" 
+	}
+]

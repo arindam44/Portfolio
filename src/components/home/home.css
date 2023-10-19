@@ -32,42 +32,6 @@
   margin-top: 40px;
 }
 
-.home-left-btns button {
-  margin: 10px;
-  padding: 10px 30px;
-  text-align: center;
-  text-transform: uppercase;
-  background-size: 200% auto;
-  border-radius: 10px;
-  display: block;
-  font-size: 18px;
-  cursor: pointer;
-  font-weight: 400;
-}
-
-.home-left-btns .hire-btn {
-  background-color: var(--primary);
-  color: white;
-}
-
-.home-left-btns .chat-btn {
-  border: 3px solid var(--primary);
-  color: var(--primary);
-  background: linear-gradient(
-    to right,
-    var(--primary) 50%,
-    var(--primary-bg) 50%
-  );
-  background-size: 200% 100%;
-  background-position: right bottom;
-  transition: all 0.3s ease-out;
-}
-
-.home-left-btns .chat-btn:hover {
-  background-position: left bottom;
-  color: var(--text);
-}
-
 .home-left-social-media-btn {
   cursor: pointer;
 }

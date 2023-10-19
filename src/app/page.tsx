@@ -2,6 +2,8 @@ import Home from "@/components/home";
 import styles from "./page.module.css";
 import Navbar from "@/components/navbar";
 import About from "@/components/about";
+import Projects from "@/components/projects";
+import Contacts from "@/components/contacts";
 
 export default function App() {
   return (
@@ -12,6 +14,8 @@ export default function App() {
       <div className={styles.content}>
         <Home />
         <About />
+        <Projects />
+        <Contacts />
       </div>
     </main>
   );
