@@ -35,7 +35,7 @@ const Contacts = (props: Props) => {
             placeholder="Your Name"
           />
           <input
-            type="text"
+            type="email"
             className="contact-input"
             value={contactDetails.email}
             onChange={(e) => handleInputChange(e.target?.value, "email")}

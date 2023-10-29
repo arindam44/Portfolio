@@ -3,7 +3,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import "./home.css";
 import Image from "next/image";
-import { downloadFile, handleScrollToElement } from "@/utils";
+import { handleScrollToElement } from "@/utils";
 
 type Props = {};
 
@@ -37,13 +37,9 @@ const Home = (props: Props) => {
         <div className="home-left-btns">
           <button
             className="fill-btn"
-            onClick={() =>
-              downloadFile(
-                "https://drive.google.com/file/d/1Bg3boGGGuZ5BNFk2dLqMPqxh02eivhpo/view?usp=share_link",
-                "application/pdf",
-                "Arindam_Roy_Resume.pdf"
-              )
-            }
+            onClick={() => {
+              window.open('https://drive.google.com/uc?export=download&id=1Bg3boGGGuZ5BNFk2dLqMPqxh02eivhpo', '_blank')
+            }}
           >
             Hire Me
           </button>
