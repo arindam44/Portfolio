@@ -1,6 +1,8 @@
 "use client";
 import React, { useCallback, useState } from "react";
 import "./contacts.css";
+import { sendContactForm } from "@/utils/api";
+import Loader from "@/assets/icons/Loader";
 
 type Props = {};
 
@@ -12,6 +14,7 @@ const Contacts = (props: Props) => {
     subject: "",
     message: "",
   });
+  const [loading, setLoading] = useState(false);
 
   const handleInputChange = useCallback((value: string, key: string) => {
     setContactDetails((prev) => {
@@ -21,6 +24,18 @@ const Contacts = (props: Props) => {
       };
     });
   }, []);
+
+  const handleSubmit = useCallback(async () => {
+    try {
+      setLoading(true);
+      await sendContactForm(contactDetails);
+    } catch (err: any) {
+      console.log(err);
+      throw new Error(err);
+    } finally {
+      setLoading(false);
+    }
+  }, [contactDetails]);
 
   return (
     <section className="contacts-container">
@@ -42,7 +57,7 @@ const Contacts = (props: Props) => {
             placeholder="Your Email Address"
           />
           <input
-            type="text"
+            type="phone"
             className="contact-input"
             value={contactDetails.phone}
             onChange={(e) => handleInputChange(e.target?.value, "phone")}
@@ -62,9 +77,15 @@ const Contacts = (props: Props) => {
           value={contactDetails.message}
           onChange={(e) => handleInputChange(e.target?.value, "message")}
           placeholder="Message"
-		  rows={15}
+          rows={15}
         />
-		<button className="contact-btn fill-btn">Submit</button>
+        <button
+          className={`contact-btn fill-btn ${loading ? "loading" : ""}`}
+          onClick={handleSubmit}
+        >
+          Submit
+          {loading && <Loader />}
+        </button>
       </div>
     </section>
   );
