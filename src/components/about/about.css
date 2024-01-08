@@ -82,4 +82,7 @@
     font-size: 14px;
     text-align: justify;
   }
+  .about-right-stack {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
