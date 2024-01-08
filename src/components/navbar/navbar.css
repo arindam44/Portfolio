@@ -17,6 +17,10 @@
   column-gap: 45px;
 }
 
+.nav-right.mobile {
+  display: none;
+}
+
 .nav-right .nav-right-item {
   font-size: 18px;
   transition: 0.3s;
@@ -25,4 +29,37 @@
 
 .nav-right .nav-right-item:hover {
   color: var(--primary);
+}
+
+@media screen and (max-width: 768px) {
+  .nav-right.desktop {
+    display: none;
+  }
+  .nav-right.mobile {
+    display: flex;
+  }
+  .nav-left {
+    font-size: 22px;
+  }
+  .nav-right-icon {
+    height: 35px;
+    width: 35px;
+  }
+  /* .nav-right-icon.close {
+    animation: fadein 1s ease normal reverse;
+  } */
+  .nav-right-list {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    padding: 0px 0px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #000;
+  }
+  .nav-right-list .nav-right-item {
+    padding: 10px;
+  }
 }

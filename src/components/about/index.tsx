@@ -8,6 +8,7 @@ type Props = {};
 const About = (props: Props) => {
   return (
     <section className="about-container">
+      <div className="about-right-section-header mobile">About Me</div>
       <div className="about-left">
         <Image src="/about.png" alt="About" width={400} height={400} />
       </div>

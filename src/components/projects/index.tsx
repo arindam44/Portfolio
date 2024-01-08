@@ -14,6 +14,7 @@ const Projects = (props: Props) => {
       <div className="projects-list">
         {projects.map((project) => (
           <div className="project-card" key={project.id}>
+            <span className="project-name mobile">{project.name}</span>
             <Image
               className="project-image"
               src={project.image}

@@ -18,7 +18,19 @@
 }
 
 .content {
-  margin-top: 101px;
+  margin-top: 50px;
   width: 100%;
   padding: 0rem;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 10px;
+  }
+  .nav {
+    padding: 10px;
+  }
+  .content {
+    margin-top: 80px;
+  }
 }

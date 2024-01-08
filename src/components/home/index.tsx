@@ -51,8 +51,7 @@ const Home = (props: Props) => {
           </button>
         </div>
         <div
-          className="home-left-btns"
-          style={{ paddingLeft: "10px", columnGap: "50px" }}
+          className="home-left-btns social-media"
         >
           <a
             href="https://linkedin.com/in/arindam19/"
