@@ -35,7 +35,7 @@ textarea.contact-input {
   resize: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 512px) {
   .contacts-form {
     width: 100%;
   }

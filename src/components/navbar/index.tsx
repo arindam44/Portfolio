@@ -24,30 +24,30 @@ const Navbar = (props: Props) => {
 
   const navMenuItems = (
     <>
-      <div
+      <button
         className="nav-right-item"
         onClick={() => handleMenuItemClick("home-container")}
       >
         Home
-      </div>
-      <div
+      </button>
+      <button
         className="nav-right-item"
         onClick={() => handleMenuItemClick("about-container")}
       >
         About
-      </div>
-      <div
+      </button>
+      <button
         className="nav-right-item"
         onClick={() => handleMenuItemClick("projects-container")}
       >
         Projects
-      </div>
-      <div
+      </button>
+      <button
         className="nav-right-item"
         onClick={() => handleMenuItemClick("contacts-container")}
       >
         Contacts
-      </div>
+      </button>
     </>
   );
 
@@ -69,7 +69,7 @@ const Navbar = (props: Props) => {
             onClick={() => setmenuOpen(false)}
           />
         )}
-        {menuOpen && <div className="nav-right-list">{navMenuItems}</div>}
+        <div className="nav-right-list" style={{height: menuOpen ? '173px' : '0px'}}>{menuOpen && navMenuItems}</div>
       </div>
     </div>
   );
