@@ -1,0 +1,22 @@
+[
+	{
+		"id": "exp-01",
+		"position": "Frontend Developer",
+		"company": "Dashclicks India Pvt Ltd.",
+		"logoSrc": "/dcLogo.jpeg",
+		"start": "Feb, 2021",
+		"end": "Present",
+		"location": "Remote",
+		"description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae."]
+	},
+	{
+		"id": "exp-02",
+		"position": "Full Stack Intern",
+		"company": "The Young Minds Pvt Ltd.",
+		"logoSrc": "/ymLogo.jpeg",
+		"start": "Aug, 2020",
+		"end": "Jan, 2021",
+		"location": "Remote",
+		"description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae."]
+	}
+]

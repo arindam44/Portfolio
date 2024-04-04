@@ -10,13 +10,13 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   const match512 = useMediaQuery(512);
-  const [menuOpen, setmenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const handleMenuItemClick = useCallback(
     (targetClass: string) => {
       handleScrollToElement(targetClass);
       if (menuOpen)
-        setmenuOpen(false);
+        setMenuOpen(false);
     },
     [menuOpen],
   )
@@ -60,13 +60,13 @@ const Navbar = (props: Props) => {
         {!menuOpen ? (
           <Hamburger
             className="nav-right-icon"
-            onClick={() => setmenuOpen(true)}
+            onClick={() => setMenuOpen(true)}
           />
         ) : (
           <Cross
             className="nav-right-icon close"
             style={{height: '35px'}}
-            onClick={() => setmenuOpen(false)}
+            onClick={() => setMenuOpen(false)}
           />
         )}
         <div className="nav-right-list" style={{height: menuOpen ? '173px' : '0px'}}>{menuOpen && navMenuItems}</div>

@@ -4,6 +4,7 @@ import Navbar from "@/components/navbar";
 import About from "@/components/about";
 import Projects from "@/components/projects";
 import Contacts from "@/components/contacts";
+import Experiences from "@/components/experiences";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <div className={styles.content}>
         <Home />
         <About />
+        <Experiences />
         <Projects />
         <Contacts />
       </div>
