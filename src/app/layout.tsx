@@ -1,8 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { League_Spartan } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const league_spartan = League_Spartan({ subsets: ['latin'], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] })
 
 export const metadata: Metadata = {
   title: 'Arindam Roy',
@@ -16,7 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+
+      <body className={league_spartan.className}>{children}</body>
     </html>
   )
 }

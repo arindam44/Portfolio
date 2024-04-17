@@ -16,7 +16,7 @@
 }
 
 .home-left .index-module_type__E-SaG {
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 600;
   color: var(--primary);
   animation: 2s fade-in-move-up forwards;
@@ -24,7 +24,7 @@
 
 .home-left-desc {
   margin-top: 25px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 26px;
   opacity: 0;
   animation: 2s fade-in-move-up 1s forwards;
@@ -73,7 +73,7 @@
     width: 100%;
   }
   .home-left-heading {
-    font-size: 36px;
+    font-size: 38px;
   }
   .home-left .index-module_type__E-SaG {
     font-size: 24px;

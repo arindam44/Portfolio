@@ -8,6 +8,8 @@
   font-weight: bold;
   text-transform: uppercase;
   color: var(--primary);
+  margin-bottom: -40px;
+  margin-top: 30px;
 }
 /* .projects-list {
   padding-top: 30px;
@@ -65,6 +67,9 @@
 }
 
 @media screen and (max-width: 512px) {
+  .projects-header {
+    margin-bottom: -20px;
+  }
   .project-card,
   .project-card:nth-child(odd),
   .project-card:nth-child(even) {

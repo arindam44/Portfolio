@@ -7,7 +7,7 @@
 		"start": "Feb, 2021",
 		"end": "Present",
 		"location": "Remote",
-		"description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae."]
+		"description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur.",  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.",  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.",  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae."]
 	},
 	{
 		"id": "exp-02",
@@ -17,6 +17,6 @@
 		"start": "Aug, 2020",
 		"end": "Jan, 2021",
 		"location": "Remote",
-		"description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae."]
+		"description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugia dicta odit doloremque consectetur veritatis beatae.",  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.",  "Lorem ipsum dolor sit amet r adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.",  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae."]
 	}
 ]

@@ -5,6 +5,7 @@ import { handleScrollToElement } from "@/utils";
 import { useMediaQuery } from "@/customHooks/useMediaQuery";
 import Hamburger from "@/assets/icons/Hamburger";
 import Cross from "@/assets/icons/Cross";
+import navItems from "@/constants/navItems.json";
 
 type Props = {};
 
@@ -15,41 +16,20 @@ const Navbar = (props: Props) => {
   const handleMenuItemClick = useCallback(
     (targetClass: string) => {
       handleScrollToElement(targetClass);
-      if (menuOpen)
-        setMenuOpen(false);
+      if (menuOpen) setMenuOpen(false);
     },
-    [menuOpen],
-  )
-  
-
-  const navMenuItems = (
-    <>
-      <button
-        className="nav-right-item"
-        onClick={() => handleMenuItemClick("home-container")}
-      >
-        Home
-      </button>
-      <button
-        className="nav-right-item"
-        onClick={() => handleMenuItemClick("about-container")}
-      >
-        About
-      </button>
-      <button
-        className="nav-right-item"
-        onClick={() => handleMenuItemClick("projects-container")}
-      >
-        Projects
-      </button>
-      <button
-        className="nav-right-item"
-        onClick={() => handleMenuItemClick("contacts-container")}
-      >
-        Contacts
-      </button>
-    </>
+    [menuOpen]
   );
+
+  const navMenuItems = navItems.map((navItem) => (
+    <button
+      key={navItem.id}
+      className="nav-right-item"
+      onClick={() => handleMenuItemClick(navItem.value)}
+    >
+      {navItem.title}
+    </button>
+  ));
 
   return (
     <div className="nav-container">
@@ -65,11 +45,16 @@ const Navbar = (props: Props) => {
         ) : (
           <Cross
             className="nav-right-icon close"
-            style={{height: '35px'}}
+            style={{ height: "35px" }}
             onClick={() => setMenuOpen(false)}
           />
         )}
-        <div className="nav-right-list" style={{height: menuOpen ? '173px' : '0px'}}>{menuOpen && navMenuItems}</div>
+        <div
+          className="nav-right-list"
+          style={{ height: menuOpen ? "173px" : "0px" }}
+        >
+          {menuOpen && navMenuItems}
+        </div>
       </div>
     </div>
   );

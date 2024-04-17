@@ -1,0 +1,27 @@
+[
+	{
+		"id": "nav-01",
+		"title": "Home",
+		"value": "home-container" 
+	},
+	{
+		"id": "nav-02",
+		"title": "About",
+		"value": "about-container" 
+	},
+	{
+		"id": "nav-03",
+		"title": "Experiences",
+		"value": "experiences-container" 
+	},
+	{
+		"id": "nav-04",
+		"title": "Projects",
+		"value": "projects-container" 
+	},
+	{
+		"id": "nav-05",
+		"title": "Contacts",
+		"value": "contacts-container" 
+	}
+]
