@@ -37,6 +37,25 @@
 textarea.contact-input {
   resize: none;
 }
+.contacts-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.contacts-footer .contacts-footer-inner {
+  display: flex;
+  column-gap: 20px;
+  align-items: flex-end;
+}
+
+.contacts-footer .contacts-footer-inner > svg {
+  height: 18px;
+  width: 18px;
+}
+
+.contacts-footer .contacts-footer-inner .contacts-footer-text:hover {
+  color: var(--primary);
+}
 
 @media screen and (max-width: 512px) {
   .contacts-form {

@@ -1,9 +1,8 @@
-"use client"
 import React from "react";
 import "./projects.css";
 import Image from "next/image";
 import projects from "../../constants/projects.json";
-import OpenExternal from '../../assets/icons/OpenExternal'
+import OpenExternal from "../../assets/icons/OpenExternal";
 
 type Props = {};
 
@@ -27,7 +26,10 @@ const Projects = (props: Props) => {
               <p className="project-description">{project.description}</p>
               <div className="project-footer">
                 {project.code && (
-                  <button className="outlined-btn" onClick={() => window.open(project.code, '_blank')}>
+                  <button
+                    className="outlined-btn"
+                    onClick={() => window.open(project.code, "_blank")}
+                  >
                     Code
                     <Image
                       src="/githubIcon.png"
@@ -38,7 +40,10 @@ const Projects = (props: Props) => {
                   </button>
                 )}
                 {project.demo && (
-                  <button className="fill-btn" onClick={() => window.open(project.demo, '_blank')}>
+                  <button
+                    className="fill-btn"
+                    onClick={() => window.open(project.demo, "_blank")}
+                  >
                     Demo
                     <OpenExternal />
                   </button>

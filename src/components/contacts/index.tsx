@@ -1,8 +1,9 @@
-"use client";
 import React, { useCallback, useState } from "react";
 import "./contacts.css";
 import { sendContactForm } from "@/utils/api";
 import Loader from "@/assets/icons/Loader";
+import Phone from "@/assets/icons/Phone";
+import Email from "@/assets/icons/Email";
 
 type Props = {};
 
@@ -86,6 +87,23 @@ const Contacts = (props: Props) => {
           Submit
           {loading && <Loader />}
         </button>
+        <div className="contacts-footer">
+          <div className="contacts-footer-inner">
+            <Phone />
+            <a className="contacts-footer-text" href="tel:+919874652463">
+              +91-9876543210
+            </a>
+          </div>
+          <div className="contacts-footer-inner">
+            <Email />
+            <a
+              className="contacts-footer-text"
+              href="mailto:arindam44roy@gmail.com"
+            >
+              arindam44roy@gmail.com
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );

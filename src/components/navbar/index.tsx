@@ -1,8 +1,6 @@
-"use client";
 import React, { useCallback, useState } from "react";
 import "./navbar.css";
 import { handleScrollToElement } from "@/utils";
-import { useMediaQuery } from "@/customHooks/useMediaQuery";
 import Hamburger from "@/assets/icons/Hamburger";
 import Cross from "@/assets/icons/Cross";
 import navItems from "@/constants/navItems.json";
@@ -10,7 +8,6 @@ import navItems from "@/constants/navItems.json";
 type Props = {};
 
 const Navbar = (props: Props) => {
-  const match512 = useMediaQuery(512);
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleMenuItemClick = useCallback(
@@ -51,7 +48,7 @@ const Navbar = (props: Props) => {
         )}
         <div
           className="nav-right-list"
-          style={{ height: menuOpen ? "173px" : "0px" }}
+          style={{ height: menuOpen ? "211px" : "0px" }}
         >
           {menuOpen && navMenuItems}
         </div>

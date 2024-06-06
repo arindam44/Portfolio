@@ -1,3 +1,5 @@
+"use client";
+
 import Home from "@/components/home";
 import styles from "./page.module.css";
 import Navbar from "@/components/navbar";

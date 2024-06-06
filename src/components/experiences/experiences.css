@@ -60,9 +60,14 @@
   margin-top: 5px;
   opacity: 0.6;
 }
-.experience-description {
-  list-style: inside;
-  line-height: 140%;
+.experience-description-list {
+  margin-left: 25px;
+}
+
+.experience-description-list .experience-description-item {
+  list-style: disc;
+  line-height: 150%;
+  margin: 15px 0px;
 }
 
 @media screen and (max-width: 512px) {

@@ -1,15 +1,19 @@
-"use client";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import "./home.css";
 import Image from "next/image";
 import { handleScrollToElement } from "@/utils";
+import { motion } from "framer-motion";
 
 type Props = {};
 
 const Home = (props: Props) => {
   return (
-    <section className="home-container">
+    <motion.section
+      className="home-container"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+    >
       <div className="home-left">
         <div className="home-left-heading">Hi, I&apos;m Arindam Roy</div>
         <TypeAnimation
@@ -38,7 +42,10 @@ const Home = (props: Props) => {
           <button
             className="fill-btn"
             onClick={() => {
-              window.open('https://drive.google.com/uc?export=download&id=1Bg3boGGGuZ5BNFk2dLqMPqxh02eivhpo', '_blank')
+              window.open(
+                "https://drive.google.com/uc?export=download&id=1Bg3boGGGuZ5BNFk2dLqMPqxh02eivhpo",
+                "_blank"
+              );
             }}
           >
             Hire Me
@@ -50,9 +57,7 @@ const Home = (props: Props) => {
             Let&apos;s talk
           </button>
         </div>
-        <div
-          className="home-left-btns social-media"
-        >
+        <div className="home-left-btns social-media">
           <a
             href="https://linkedin.com/in/arindam19/"
             target="_blank"
@@ -121,7 +126,7 @@ const Home = (props: Props) => {
         </div>
       </div>
       <video className="home-right-img" src="/logo.mp4" muted autoPlay loop />
-    </section>
+    </motion.section>
   );
 };
 

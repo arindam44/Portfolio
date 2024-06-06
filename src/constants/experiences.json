@@ -1,22 +1,33 @@
 [
-	{
-		"id": "exp-01",
-		"position": "Frontend Developer",
-		"company": "Dashclicks India Pvt Ltd.",
-		"logoSrc": "/dcLogo.jpeg",
-		"start": "Feb, 2021",
-		"end": "Present",
-		"location": "Remote",
-		"description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur.",  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.",  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.",  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae."]
-	},
-	{
-		"id": "exp-02",
-		"position": "Full Stack Intern",
-		"company": "The Young Minds Pvt Ltd.",
-		"logoSrc": "/ymLogo.jpeg",
-		"start": "Aug, 2020",
-		"end": "Jan, 2021",
-		"location": "Remote",
-		"description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugia dicta odit doloremque consectetur veritatis beatae.",  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.",  "Lorem ipsum dolor sit amet r adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae.",  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores fugiat atque sit, ipsam dicta odit doloremque consectetur veritatis beatae."]
-	}
+  {
+    "id": "exp-01",
+    "position": "Frontend Developer",
+    "company": "Dashclicks India Pvt Ltd.",
+    "logoSrc": "/dcLogo.jpeg",
+    "start": "Feb, 2021",
+    "end": "Present",
+    "location": "Remote",
+    "description": [
+      "Spearheaded the comprehensive development of a proprietary SaaS platform, tailored to client specifications.",
+      "Pioneered the development of a sophisticated in-house Form Builder utilizing Form.io, empowering users to effortlessly construct intricate forms for their online platforms while seamlessly managing form submissions.",
+      "Innovated the execution of an in-house Website Builder leveraging GrapesJS, facilitating streamlined website creation for users lacking coding expertise.",
+      "Engineered a bespoke customer support chat application and widget, optimizing user engagement, through the integration and consumption of Socket events.",
+      "Orchestrated the seamless implementation of React-Query, enhancing application performance through efficient data caching mechanisms."
+    ]
+  },
+  {
+    "id": "exp-02",
+    "position": "Full Stack Intern",
+    "company": "The Young Minds Pvt Ltd.",
+    "logoSrc": "/ymLogo.jpeg",
+    "start": "Aug, 2020",
+    "end": "Jan, 2021",
+    "location": "Remote",
+    "description": [
+      "Architected robust REST APIs utilizing Express.js and MongoDB to drive the operational backbone of an advanced E-Learning platform.",
+      "Executed cutting-edge authentication mechanisms via Firebase Auth, ensuring secure access and user authentication within the platform.",
+      "Spearheaded the development of the application's dynamic FrontEnd utilizing React.js, Redux, and Material-UI, resulting in an intuitive and visually captivating user interface.",
+      "Implemented Redux for comprehensive global state management, optimizing data flow and enhancing the scalability of the application architecture."
+    ]
+  }
 ]

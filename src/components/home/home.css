@@ -12,30 +12,30 @@
 .home-left-heading {
   font-size: 50px;
   font-weight: 700;
-  animation: 2s fade-in-move-up forwards;
+  /* animation: 2s fade-in-move-up forwards; */
 }
 
 .home-left .index-module_type__E-SaG {
   font-size: 32px;
   font-weight: 600;
   color: var(--primary);
-  animation: 2s fade-in-move-up forwards;
+  /* animation: 2s fade-in-move-up forwards; */
 }
 
 .home-left-desc {
   margin-top: 25px;
   font-size: 18px;
   line-height: 26px;
-  opacity: 0;
-  animation: 2s fade-in-move-up 1s forwards;
+  /* opacity: 0; */
+  /* animation: 2s fade-in-move-up 1s forwards; */
 }
 
 .home-left-btns {
   display: flex;
   column-gap: 40px;
   margin-top: 40px;
-  opacity: 0;
-  animation: 2s fade-in-move-up 2s forwards;
+  /* opacity: 0; */
+  /* animation: 2s fade-in-move-up 2s forwards; */
 }
 
 .home-left-btns.social-media {
