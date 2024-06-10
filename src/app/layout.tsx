@@ -10,6 +10,7 @@ const league_spartan = League_Spartan({
 export const metadata: Metadata = {
   title: "Arindam Roy",
   description: "Arindam Roy Developer Portfolio",
+  robots: "index",
 };
 
 export default function RootLayout({
