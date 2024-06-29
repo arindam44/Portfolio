@@ -2,22 +2,47 @@ import React from "react";
 import "./about.css";
 import Image from "next/image";
 import skills from "../../constants/skills.json";
+import { motion } from "framer-motion";
 
 type Props = {};
 
 const About = (props: Props) => {
   return (
-    <section className="about-container">
+    <motion.section
+      className="about-container"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1, ease: "easeInOut" }}
+      viewport={{ once: true }}
+    >
       <div className="about-right-section-header mobile">About Me</div>
-      <div className="about-left">
+      <motion.div
+        className="about-left"
+        initial={{ opacity: 0, x: "-200px" }}
+        whileInView={{ opacity: 1, x: "0px" }}
+        transition={{ duration: 1, ease: "easeInOut" }}
+        viewport={{ once: true }}
+      >
         <Image src="/about.png" alt="About" width={400} height={400} />
-      </div>
+      </motion.div>
       <div className="about-right">
         <div className="about-right-section-header">About Me</div>
-        <div className="about-right-heading">
+        <motion.div
+          className="about-right-heading"
+          initial={{ opacity: 0, y: "50px" }}
+          whileInView={{ opacity: 1, y: "0px" }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+          viewport={{ once: true }}
+        >
           A passionate FrontEnd Developer <br /> based in Kolkata, India 📍
-        </div>
-        <div className="about-right-desc">
+        </motion.div>
+        <motion.div
+          className="about-right-desc"
+          initial={{ opacity: 0, y: "50px" }}
+          whileInView={{ opacity: 1, y: "0px" }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+          viewport={{ once: true }}
+        >
           As a Front-End Developer my key skills include React.js, JavaScript,
           TypeScript, HTML, CSS & SCSS. I excel in designing and maintaining
           responsive websites that offer a smooth user experience. My expertise
@@ -33,8 +58,14 @@ const About = (props: Props) => {
           let&apos;s embark on exciting digital adventures together. Welcome to
           the digital playground where code meets creativity and where the
           future is built, one line at a time.
-        </div>
-        <div className="about-right-stack">
+        </motion.div>
+        <motion.div
+          className="about-right-stack"
+          initial={{ opacity: 0, y: "50px" }}
+          whileInView={{ opacity: 1, y: "0px" }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+          viewport={{ once: true }}
+        >
           {skills.map((skill) => (
             <Image
               key={skill.name}
@@ -44,9 +75,9 @@ const About = (props: Props) => {
               width={50}
             />
           ))}
-        </div>
+        </motion.div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

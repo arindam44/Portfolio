@@ -1,0 +1,37 @@
+[
+	{
+		"id": "social-01",
+		"title": "Linkedin",
+		"url": "https://linkedin.com/in/arindam19",
+		"svgUrl": "/linkedinIcon.svg"
+
+	},
+	{
+		"id": "social-02",
+		"title": "Github",
+		"url": "https://github.com/arindam44",
+		"svgUrl": "/githubIcon.png"
+
+	},
+	{
+		"id": "social-03",
+		"title": "Meta",
+		"url": "https://facebook.com/arindam.roy.44",
+		"svgUrl": "/metaIcon.svg"
+
+	},
+	{
+		"id": "social-04",
+		"title": "Instagram",
+		"url": "https://instagram.com/arindam_.roy",
+		"svgUrl": "/instagramIcon.svg"
+
+	},
+	{
+		"id": "social-05",
+		"title": "Twitter",
+		"url": "https://twitter.com/arindam_roy_19",
+		"svgUrl": "/xIcon.svg"
+
+	}
+]

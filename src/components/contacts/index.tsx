@@ -4,6 +4,7 @@ import { sendContactForm } from "@/utils/api";
 import Loader from "@/assets/icons/Loader";
 import Phone from "@/assets/icons/Phone";
 import Email from "@/assets/icons/Email";
+import { motion } from "framer-motion";
 
 type Props = {};
 
@@ -39,7 +40,13 @@ const Contacts = (props: Props) => {
   }, [contactDetails]);
 
   return (
-    <section className="contacts-container">
+    <motion.section
+      className="contacts-container"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1, ease: "easeInOut" }}
+      viewport={{ once: true }}
+    >
       <span className="contacts-header">Contact Me</span>
       <div className="contacts-form">
         <div className="contact-three-input-container">
@@ -105,7 +112,7 @@ const Contacts = (props: Props) => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

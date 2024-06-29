@@ -4,6 +4,7 @@ import { handleScrollToElement } from "@/utils";
 import Hamburger from "@/assets/icons/Hamburger";
 import Cross from "@/assets/icons/Cross";
 import navItems from "@/constants/navItems.json";
+import { motion } from "framer-motion";
 
 type Props = {};
 
@@ -29,7 +30,13 @@ const Navbar = (props: Props) => {
   ));
 
   return (
-    <div className="nav-container">
+    <motion.div
+      className="nav-container"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1, ease: "easeInOut" }}
+      viewport={{ once: true }}
+    >
       <div className="nav-left">Arindam.dev</div>
       <div className="nav-right desktop">{navMenuItems}</div>
 
@@ -53,7 +60,7 @@ const Navbar = (props: Props) => {
           {menuOpen && navMenuItems}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

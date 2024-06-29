@@ -46,6 +46,7 @@ textarea.contact-input {
   display: flex;
   column-gap: 20px;
   align-items: flex-end;
+  cursor: pointer;
 }
 
 .contacts-footer .contacts-footer-inner > svg {
@@ -53,8 +54,13 @@ textarea.contact-input {
   width: 18px;
 }
 
-.contacts-footer .contacts-footer-inner .contacts-footer-text:hover {
+.contacts-footer .contacts-footer-inner:hover {
   color: var(--primary);
+}
+
+.contacts-footer .contacts-footer-inner:hover > svg,
+.contacts-footer .contacts-footer-inner:hover > svg path {
+  fill: var(--primary);
 }
 
 @media screen and (max-width: 512px) {

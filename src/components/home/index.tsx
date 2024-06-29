@@ -4,6 +4,7 @@ import "./home.css";
 import Image from "next/image";
 import { handleScrollToElement } from "@/utils";
 import { motion } from "framer-motion";
+import socialMedias from "@/constants/socialMedias.json";
 
 type Props = {};
 
@@ -13,8 +14,16 @@ const Home = (props: Props) => {
       className="home-container"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
+      transition={{ duration: 1, ease: "easeInOut" }}
+      viewport={{ once: true }}
     >
-      <div className="home-left">
+      <motion.div
+        className="home-left"
+        initial={{ x: "-200px" }}
+        whileInView={{ x: "0px" }}
+        transition={{ duration: 1, ease: "easeInOut" }}
+        viewport={{ once: true }}
+      >
         <div className="home-left-heading">Hi, I&apos;m Arindam Roy</div>
         <TypeAnimation
           sequence={[
@@ -58,73 +67,24 @@ const Home = (props: Props) => {
           </button>
         </div>
         <div className="home-left-btns social-media">
-          <a
-            href="https://linkedin.com/in/arindam19/"
-            target="_blank"
-            rel="noopener noreferer"
-          >
-            <Image
-              src="/linkedinIcon.svg"
-              alt="linkedin"
-              className="home-left-social-media-btn"
-              width={50}
-              height={50}
-            />
-          </a>
-          <a
-            href="https://github.com/arindam44"
-            target="_blank"
-            rel="noopener noreferer"
-          >
-            <Image
-              src="/githubIcon.png"
-              alt="github"
-              className="home-left-social-media-btn"
-              width={50}
-              height={50}
-            />
-          </a>
-          <a
-            href="https://facebook.com/arindam.roy.44/"
-            target="_blank"
-            rel="noopener noreferer"
-          >
-            <Image
-              src="/metaIcon.svg"
-              alt="meta"
-              className="home-left-social-media-btn"
-              width={50}
-              height={50}
-            />
-          </a>
-          <a
-            href="https://instagram.com/arindam_.roy"
-            target="_blank"
-            rel="noopener noreferer"
-          >
-            <Image
-              src="/instagramIcon.svg"
-              alt="instagram"
-              className="home-left-social-media-btn"
-              width={50}
-              height={50}
-            />
-          </a>
-          <a
-            href="https://twitter.com/arindam_roy_19"
-            target="_blank"
-            rel="noopener noreferer"
-          >
-            <Image
-              src="/xIcon.svg"
-              alt="twitter"
-              className="home-left-social-media-btn"
-              width={50}
-              height={50}
-            />
-          </a>
+          {socialMedias.map((item) => (
+            <a
+              key={item.id}
+              href={item.url}
+              target="_blank"
+              rel="noopener noreferer"
+            >
+              <Image
+                src={item.svgUrl}
+                alt={item.title}
+                className="home-left-social-media-btn"
+                width={50}
+                height={50}
+              />
+            </a>
+          ))}
         </div>
-      </div>
+      </motion.div>
       <video className="home-right-img" src="/logo.mp4" muted autoPlay loop />
     </motion.section>
   );
