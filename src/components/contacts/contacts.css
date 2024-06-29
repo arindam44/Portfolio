@@ -19,7 +19,7 @@
 .contact-three-input-container {
   display: flex;
   justify-content: space-around;
-  column-gap: 20px;
+  gap: 20px;
 }
 .contact-input {
   padding: 10px;
