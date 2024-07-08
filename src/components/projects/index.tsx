@@ -43,7 +43,15 @@ const Projects = (props: Props) => {
               viewport={{ once: true }}
             >
               <span className="project-name">{project.name}</span>
-              <p className="project-description">{project.description}</p>
+                <ul className="project-description-list">
+                  {project.description.map(
+                    (desc: string, descIndex: number) => (
+                      <li className="project-description-item" key={`project-${project.id}-desc-${descIndex}`}>
+                        {desc}
+                      </li>
+                    )
+                  )}
+                </ul>
               <div className="project-footer">
                 {project.code && (
                   <button

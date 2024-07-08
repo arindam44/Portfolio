@@ -53,8 +53,13 @@
 .project-name.mobile {
   display: none;
 }
-.project-description {
+.project-description-list {
   color: #767676;
+}
+.project-description-list .project-description-item {
+  list-style: disc;
+  line-height: 150%;
+  margin: 15px 0px;
 }
 .project-footer {
   width: 60%;

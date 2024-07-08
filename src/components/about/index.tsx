@@ -76,6 +76,21 @@ const About = (props: Props) => {
             />
           ))}
         </motion.div>
+        <motion.button
+          className="fill-btn about-resume-btn"
+          initial={{ opacity: 0, y: "50px" }}
+          whileInView={{ opacity: 1, y: "0px" }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+          viewport={{ once: true }}
+          onClick={() => {
+            window.open(
+              "https://drive.google.com/uc?export=download&id=1w_Z6icHmesO2klEMrD0GyJcgYXKp2ylM",
+              "_blank"
+            );
+          }}
+        >
+          Download Resume
+        </motion.button>
       </div>
     </motion.section>
   );

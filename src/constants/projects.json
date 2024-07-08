@@ -1,34 +1,45 @@
 [
-	{
-		"id": "project-01",
-		"name": "Funnel/Website Builder for DashClicks",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat accusantium sint, explicabo quidem quod assumenda! Excepturi quia distinctio commodi? Porro dolor earum laudantium architecto dolores maiores cupiditate, quisquam amet quam obcaecati officiis ipsum quos reprehenderit minus distinctio quibusdam enim nostrum veritatis quia harum. Unde, aspernatur sint veritatis quia odit quisquam dolore provident labore quod exercitationem rerum! Eius, ullam explicabo voluptatibus minima fugiat quo rerum accusantium, hic error fuga voluptatum tempore consequuntur quia repellat pariatur maxime ipsa ab nulla reiciendis. Laudantium, et aliquam obcaecati esse eaque, sapiente id deserunt quaerat dolorum adipisci ab ipsam. Autem quae eos deserunt quod iste eveniet.",
-		"image": "/funnel-builder.jpg",
-		"code": null,
-		"demo": "https://www.youtube.com/watch?v=ckAm_f78Byc&ab_channel=DashClicks"
-	},
-	{
-		"id": "project-02",
-		"name": "WeeConnect (Social Media App)",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat accusantium sint, explicabo quidem quod assumenda! Excepturi quia distinctio commodi? Porro dolor earum laudantium architecto dolores maiores cupiditate, quisquam amet quam obcaecati officiis ipsum quos reprehenderit minus distinctio quibusdam enim nostrum veritatis quia harum. Unde, aspernatur sint veritatis quia odit quisquam dolore provident labore quod exercitationem rerum! Eius, ullam explicabo voluptatibus minima fugiat quo rerum accusantium, hic error fuga voluptatum tempore consequuntur quia repellat pariatur maxime ipsa ab nulla reiciendis. Laudantium, et aliquam obcaecati esse eaque, sapiente id deserunt quaerat dolorum adipisci ab ipsam. Autem quae eos deserunt quod iste eveniet.",
-		"image": "/weeconnect.png",
-		"code": "https://github.com/arindam44/WeConnect-FrontEnd",
-		"demo": "https://weconnnect.netlify.app"
-	},
-	{
-		"id": "project-03",
-		"name": "WeWatch (Video Conferencing App)",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat accusantium sint, explicabo quidem quod assumenda! Excepturi quia distinctio commodi? Porro dolor earum laudantium architecto dolores maiores cupiditate, quisquam amet quam obcaecati officiis ipsum quos reprehenderit minus distinctio quibusdam enim nostrum veritatis quia harum. Unde, aspernatur sint veritatis quia odit quisquam dolore provident labore quod exercitationem rerum! Eius, ullam explicabo voluptatibus minima fugiat quo rerum accusantium, hic error fuga voluptatum tempore consequuntur quia repellat pariatur maxime ipsa ab nulla reiciendis. Laudantium, et aliquam obcaecati esse eaque, sapiente id deserunt quaerat dolorum adipisci ab ipsam. Autem quae eos deserunt quod iste eveniet.",
-		"image": "/funnel-builder.jpg",
-		"code": "https://github.com/arindam44/weewatch",
-		"demo": "https://wewatch.netlify.app"
-	},
-	{
-		"id": "project-04",
-		"name": "Voice Controlled News Reader",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat accusantium sint, explicabo quidem quod assumenda! Excepturi quia distinctio commodi? Porro dolor earum laudantium architecto dolores maiores cupiditate, quisquam amet quam obcaecati officiis ipsum quos reprehenderit minus distinctio quibusdam enim nostrum veritatis quia harum. Unde, aspernatur sint veritatis quia odit quisquam dolore provident labore quod exercitationem rerum! Eius, ullam explicabo voluptatibus minima fugiat quo rerum accusantium, hic error fuga voluptatum tempore consequuntur quia repellat pariatur maxime ipsa ab nulla reiciendis. Laudantium, et aliquam obcaecati esse eaque, sapiente id deserunt quaerat dolorum adipisci ab ipsam. Autem quae eos deserunt quod iste eveniet.",
-		"image": "/voice-controlled-news-reader.png",
-		"code": null,
-		"demo": "https://voice-controlled-news-reader.netlify.app/"
-	}
+  {
+    "id": "project-01",
+    "name": "Funnel/Website Builder for DashClicks",
+    "description": [
+      "Developed a Funnel builder using GrapesJS, empowering users to create fully customizable and responsive websites without coding knowledge.",
+      "Implemented block customization features, allowing users to modify existing blocks and introduce new ones for tailored website and sales funnel designs.",
+      "Integrated comprehensive styling settings for users to customize every aspect of their funnels.",
+      "Designed and implemented a dedicated payment widget as a customizable block, enabling seamless integration of payment options into websites.",
+      "Enhanced functionality by adding support for embedding custom code and custom CSS within funnels to meet diverse user customization needs."
+    ],
+    "image": "/funnel-builder.jpg",
+    "code": null,
+    "demo": "https://www.youtube.com/watch?v=ckAm_f78Byc&ab_channel=DashClicks"
+  },
+  {
+    "id": "project-02",
+    "name": "Form Builder for DashClicks",
+    "description": [
+      "Implemented a robust Form Builder using Form.io, facilitating users to create dynamic forms for their websites.",
+      "Integrated a user-friendly drag-and-drop mechanism for intuitive form creation and customization.",
+      "Implemented a flexible architecture allowing users to choose the most suitable form type based on their specific needs and preferences including Single Page, Multiple Page, and Multiple Card (one-question-at-a-time) formats",
+      "Enhanced the Form Builder with customizable styling options, allowing users to tailor the appearance of forms to align with their branding or design preferences.",
+      "Implemented seamless form sharing capabilities, empowering users to distribute created forms effortlessly via a simple URL link or embed them directly into their existing websites using custom embed or iframe code snippets provided by our platform. This approach ensures flexibility in how users can integrate and share forms across different online platforms and environments.",
+      "Implemented a user-friendly interface to visualize and manage responses in a table as well as offering a preview feature within the form UI for every response.",
+      "Implemented export functionalities to enable users to download form responses in CSV format, supporting detailed data analysis and reporting capabilities."
+    ],
+    "image": "/forms-builder.jpeg",
+    "code": null,
+    "demo": "https://www.dashclicks.com/software/forms"
+  },
+  {
+    "id": "project-03",
+    "name": "MERN Social Media App",
+    "description": [
+      "Architected and developed a comprehensive full-stack web application leveraging Node.js for server-side operations, React.js for dynamic frontend interactions, and MongoDB as the persistent data store.",
+      "Implemented a robust authentication system utilizing Firebase Auth to ensure secure user access and authentication mechanisms.",
+      "Employed Google Cloud Storage for efficient and scalable storage solutions for multimedia assets.",
+      "Integrated Socket.IO to enable real-time instant messaging functionality, enhancing user engagement and interaction within the application."
+    ],
+    "image": "/weeconnect.png",
+    "code": "https://github.com/arindam44/WeConnect-FrontEnd",
+    "demo": "https://weconnnect.netlify.app"
+  }
 ]

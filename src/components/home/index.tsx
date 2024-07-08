@@ -52,7 +52,7 @@ const Home = (props: Props) => {
             className="fill-btn"
             onClick={() => {
               window.open(
-                "https://drive.google.com/uc?export=download&id=1Bg3boGGGuZ5BNFk2dLqMPqxh02eivhpo",
+                "https://drive.google.com/uc?export=download&id=1w_Z6icHmesO2klEMrD0GyJcgYXKp2ylM",
                 "_blank"
               );
             }}
