@@ -70,7 +70,7 @@
   margin: 15px 0px;
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 762px) {
   .experience-list {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }

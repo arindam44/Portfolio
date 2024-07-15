@@ -55,6 +55,7 @@
 }
 .project-description-list {
   color: #767676;
+  margin: 0px 10px;
 }
 .project-description-list .project-description-item {
   list-style: disc;
@@ -62,7 +63,6 @@
   margin: 15px 0px;
 }
 .project-footer {
-  width: 60%;
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
@@ -71,7 +71,7 @@
   text-transform: none;
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 762px) {
   .projects-header {
     margin-bottom: -20px;
   }
@@ -86,7 +86,7 @@
   }
   .project-name.mobile {
     display: block;
-    font-size: 30px;
+    font-size: 28px;
   }
   .project-image {
     width: 350px;

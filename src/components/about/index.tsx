@@ -34,7 +34,7 @@ const About = (props: Props) => {
           transition={{ duration: 1, ease: "easeInOut" }}
           viewport={{ once: true }}
         >
-          A passionate FrontEnd Developer <br /> based in Kolkata, India 📍
+          A passionate FrontEnd Developer <br className="about-right-heading-break" /> based in Kolkata, India 📍
         </motion.div>
         <motion.div
           className="about-right-desc"

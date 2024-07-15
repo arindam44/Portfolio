@@ -92,15 +92,9 @@ const Contacts = (props: Props) => {
           onClick={handleSubmit}
         >
           Submit
-          {loading && <Loader />}
+          {(loading) && <Loader />}
         </button>
         <div className="contacts-footer">
-          <div className="contacts-footer-inner">
-            <Phone />
-            <a className="contacts-footer-text" href="tel:+919874652463">
-              +91-9876543210
-            </a>
-          </div>
           <div className="contacts-footer-inner">
             <Email />
             <a
@@ -108,6 +102,12 @@ const Contacts = (props: Props) => {
               href="mailto:arindam44roy@gmail.com"
             >
               arindam44roy@gmail.com
+            </a>
+          </div>
+          <div className="contacts-footer-inner">
+            <Phone />
+            <a className="contacts-footer-text" href="tel:+919874652463">
+              +91-9876543210
             </a>
           </div>
         </div>

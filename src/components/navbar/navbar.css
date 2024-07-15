@@ -56,7 +56,7 @@
   transform: scaleX(1);
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 762px) {
   .nav-right.desktop {
     display: none;
   }
@@ -85,7 +85,7 @@
     align-items: flex-start;
     background: #000;
     /* animation: 0.5s ease-in grow-height forwards; */
-    transition: all 1s;
+    transition: all .5s;
   }
   .nav-right-list .nav-right-item {
     padding: 10px;
@@ -93,19 +93,19 @@
     opacity: 0;
   }
   .nav-right-list .nav-right-item:first-child {
-    animation: 250ms linear 150ms fade-in forwards;
+    animation: 250ms linear 100ms fade-in forwards;
   }
   .nav-right-list .nav-right-item:nth-child(2) {
-    animation: 250ms linear 300ms fade-in forwards;
+    animation: 250ms linear 200ms fade-in forwards;
   }
   .nav-right-list .nav-right-item:nth-child(3) {
-    animation: 250ms linear 450ms fade-in forwards;
+    animation: 250ms linear 300ms fade-in forwards;
   }
   .nav-right-list .nav-right-item:nth-child(4) {
-    animation: 250ms linear 600ms fade-in forwards;
+    animation: 250ms linear 400ms fade-in forwards;
   }
   .nav-right-list .nav-right-item:nth-child(5) {
-    animation: 250ms linear 750ms fade-in forwards;
+    animation: 250ms linear 500ms fade-in forwards;
   }
 }
 

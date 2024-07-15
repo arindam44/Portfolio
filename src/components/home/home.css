@@ -65,7 +65,7 @@
   transition: all 1s ease-in-out;
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 762px) {
   .home-container {
     padding: 0rem;
   }
